@@ -1,0 +1,43 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "Util for logging in file and coloring text in the console",
+  "author": "Balachkov G.A.",
+  "contributors" : [{
+    "name" : "Gennadiy",
+    "email" : "bigBoxForFox@gmail.com"
+  }],
+  "bin" : [{
+    "module-name" : "./bin/logger"
+  }],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gennadiy403/logger"
+  },
+  "bugs": {
+    "url": "https://github.com/gennadiy403/logger/issues"
+  },
+  "keywords" : [
+    "logger",
+    "consoling",
+    "coloring",
+    "console.log"
+  ],
+  "dependencies" : {
+  },
+  "devDependencies" : {
+  },
+  "preferGlobal" : true,
+  "private" : false,
+  "publishConfig" : {
+    "registry" : "https://github.com/gennadiy403/logger"
+  },
+  "subdomain" : "logger",
+  "analyze" : true,
+  "license" : ""
+}
