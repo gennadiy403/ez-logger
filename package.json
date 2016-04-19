@@ -1,20 +1,30 @@
 {
   "name": "ez-logger",
-  "version": "0.1.0",
+  "version": "2.0.12",
   "description": "Util for logging in file and color text in the console",
-  "main": "app.js",
+  "main": "log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/externuz/mjrserver.git"
+    "url": "git+https://github.com/gennadiy403/ez-logger.git"
   },
+  "keywords": [
+    "logger",
+    "console"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/externuz/mjrserver/issues"
+    "url": "https://github.com/gennadiy403/ez-logger/issues"
   },
-  "homepage": "https://github.com/externuz/mjrserver#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/gennadiy403/ez-logger#readme",
+  "dependencies": {},
+  "readme": "# logger\nLogging and consoling\n",
+  "readmeFilename": "README.md",
+  "_id": "ez-logger@2.0.12",
+  "_shasum": "577526c2607eec370f7277a0f5ff4524f540bb2b",
+  "_from": "ez-logger@latest",
+  "fs-extra": "^0.26.5"
 }
